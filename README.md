@@ -10,4 +10,4 @@ _________________
 
 _________________
 ## TODO: 
-- [ ] Dockerize bot
+- [X] Dockerize bot
