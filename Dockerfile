@@ -8,10 +8,10 @@ WORKDIR /usr/src/app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-RUN if [-f ./.env] ; else \
-        echo ".env does not exist" && false
-
 COPY requirements.txt ./
+
+COPY .env ./
+
 RUN groupadd -g $GID -o regi \
     && useradd -m -u $UID -g $GID -o -s /bin/bash regi \
     && pip install -U pip \
