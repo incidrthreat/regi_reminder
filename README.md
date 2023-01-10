@@ -7,7 +7,7 @@ _________________
 <p align="center">
   <img src="./images/sample.png">
 </p>
-_________________
 
-### TODO: 
+_________________
+## TODO: 
 - [ ] Dockerize bot
