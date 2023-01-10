@@ -2,5 +2,7 @@ version: '3'
 
 services:
   bot:
-    context: .
-    dockerfile: Dockerfile
+    container_name: RegiReminder
+    build:
+      context: .
+      dockerfile: Dockerfile
